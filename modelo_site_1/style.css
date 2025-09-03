@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Comic Sans';
+    src: url(font/comic-sans-w01.ttf);
+}
+
+body,html{
+    width: 99%;
+    margin: 0.2%;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+header{
+    border: 3px solid darkblue;
+    background-color: rgb(254, 228, 195);
+    width: 101.1%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    align-content: center;
+}
+#title{
+    text-align: center;
+    font-size: 3.2em;
+    color: darkgreen;
+}
+header>img{
+    display: flex;
+    align-content: center;
+    height: 75%;
+}
+nav{
+    padding: 1%;
+    width: 99.5%;
+    background-color: lightskyblue;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+a,p{
+    color: indigo;
+}
+h1{
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    margin: 3%;
+}
+.intro{
+    justify-items: center;
+}
+.intro>p{
+    width: 90%;
+}
+iframe{
+    margin: 0% 1% 0% 1%;
+}
+table{
+    border: 3px dashed red;
+    width: 35%;
+}
+th{
+    font-size: medium;
+    border: 1px solid red;
+}
+#tabletitle{
+    color: red;
+}
+.livros>img{
+    height: 30vh;
+    margin: 0% 5% 0% 5%;
+}
+.contatos{
+    justify-items: center;
+}
+h5{
+    text-align: left;
+    font-weight: 500;
+    padding-top: 3.5%;
+}
+#ref div p{
+    text-align: left;
+    display: flex;
+    color: black;
+    font-size: small;
+    margin: 0%;
+}
+#ref div a{
+    margin-top: -0.5%;
+    margin-left: 15%
+}
+#ref{
+    background-color: yellow;
+    width: 35%;
+    height: 17vh;
+    padding-left: 2%;
+}
+footer p{
+    font-family: 'Comic Sans';
+    margin-top: 1.8%;
+    font-size: 15pt;
+    color: black;
+}
+footer img{
+    height: 10vh;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: bisque;
+}
