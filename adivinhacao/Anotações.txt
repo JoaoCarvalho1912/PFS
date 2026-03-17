@@ -1,0 +1,5 @@
+Anotações
+
+API and Rest API
+(Fazem uma ponte entre back-end - banco de dados - e front-end em aplicações, serviços web e bd.
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhação</title>
+    <style> 
+        body,html{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            height: 100%;
+            width: 100%;
+            padding: -1%;
+        }
+        h1{
+            text-align: center;
+            font-size: 29px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+        #res{
+            color: white;
+        }
+    </style>
+</head>
+<body id="body">
+    <header>
+        <h1> Jogo de Adivinhação </h1>
+        <h2> Nesse jogo, você digitará um número de 0 a 99 e depois tentará adivinhar se ele é maior, menor ou igual ao gerado pelo programa. Boa diversão!</h2>
+    </header>
+    <main>
+        <p> Digite um número de 0 a 99: </p>
+        <div> <input type="number" name="" id="numuser"></div>
+        <div> <p><input type="button" value="Comparar" id="comp" onclick="funcao()"></p>
+                <p id="res"> </p></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
