@@ -1,0 +1,29 @@
+body,html{
+    background-color: black;
+}
+
+#canvas{
+    background-color: white;
+    margin-left: 35%;
+}
+#ctx{
+    background-color: red;
+}
+#ctxd{
+    background-color: rgb(50, 0, 160);
+}
+#ctxt{
+    background-color: yellow;
+}
+#ctxq{
+    background-color: darkgreen;
+}
+#lum{
+    background-color: rgb(220, 42, 42);
+}
+#lumd{
+    background-color: rgb(180, 108, 240);
+}
+#lumt{
+    background-color: limegreen;
+}
